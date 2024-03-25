@@ -207,7 +207,7 @@ const animationTimeline = () => {
         y: -1000
       },
       0.2,
-      "img",
+      ".hat img",
       {
         y: 550
       }
