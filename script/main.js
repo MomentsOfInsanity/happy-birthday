@@ -204,9 +204,13 @@ const animationTimeline = () => {
       },
       {
         opacity: 1,
-        y: 550
+        y: -1000
       },
-      0.2
+      0.2,
+      "img",
+      {
+        y: 550
+      }
     )
     .from(
       ".lydia-dp",
